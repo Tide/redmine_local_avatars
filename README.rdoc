@@ -16,3 +16,13 @@ in order to support uploading of the avatar image.
    <div class="splitcontentleft">
    <h3><%=l(:label_information_plural)%></h3>
    <div class="box tabular">
+
+
+This plugin needs the production environment, or the below config:
+  config.cache_classes     = true
+  config.action_controller.perform_caching             = true
+
+== References
+
+* {Redmine}[http://www.redmine.org/]
+* {Forums>Plugins>Local avatars Plugin v.0.0.1}[http://www.redmine.org/boards/3/topics/5365]
