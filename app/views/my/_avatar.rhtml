@@ -1,4 +1,14 @@
 </div>
+
+<script type="text/javascript">
+//<![CDATA[
+var element = document.getElementById("my_account_form");
+var attr = document.createAttribute("enctype");
+attr.nodeValue = "multipart/form-data";
+element.setAttributeNode(attr);
+//]]>
+</script>
+
 <h3><%= l(:label_avatar)%></h3>
 
 <div class='box tabular'>
