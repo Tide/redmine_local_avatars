@@ -1,4 +1,4 @@
-</div>
+</fieldset>
 
 <script type="text/javascript">
 //<![CDATA[
@@ -9,9 +9,8 @@ element.setAttributeNode(attr);
 //]]>
 </script>
 
-<h3><%= l(:label_avatar)%></h3>
-
-<div class='box tabular'>
+<fieldset class='box tabular'>
+  <legend><%= l(:label_avatar)%></legend>
   <div style="width: 128px; height: 128px; border: 1px silver solid;">
     <%= avatar(@user, :size => "128") %>
     <% av = user.attachments.find_by_description('avatar') %>
