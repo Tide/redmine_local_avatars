@@ -2,6 +2,12 @@
 
 This plugin for Redmine adds support for user defined local avatars.
 
+== Required
+
+* Redmine 1.3.0 later (revision 6165)
+
+== Notes
+
 This plugin needs the production environment, or the below config:
   config.cache_classes     = true
   config.action_controller.perform_caching             = true
@@ -10,3 +16,4 @@ This plugin needs the production environment, or the below config:
 
 * {Redmine}[http://www.redmine.org/]
 * {Forums>Plugins>Local avatars Plugin v.0.0.1}[http://www.redmine.org/boards/3/topics/5365]
+
