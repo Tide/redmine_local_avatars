@@ -17,7 +17,7 @@ element.setAttributeNode(attr);
     <% if not av.nil? %>
       <%= link_to image_tag('delete.png'), { :controller => 'attachments', :action => 'destroy', :id => av },
                                              :confirm => l(:text_are_you_sure),
-                                             :method => :post,
+                                             :method => :delete,
                                              :class => 'delete',
                                              :title => l(:button_delete) %>
     <% end %>
