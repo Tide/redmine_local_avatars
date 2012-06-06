@@ -2,9 +2,9 @@
 
 This plugin for Redmine adds support for user defined local avatars.
 
-== Required
+== Compatible with
 
-* Redmine 1.3.x  (revision 6165)
+* Redmine 1.3.x  (revision 6165 later)
 * Redmine 1.4.x
 
 == Notes
