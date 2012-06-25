@@ -1,4 +1,5 @@
 require 'application_controller'
+require_dependency 'project' 
 require_dependency 'principal' 
 require_dependency 'user' 
 

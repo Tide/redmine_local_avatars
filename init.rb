@@ -1,6 +1,8 @@
 require 'redmine'
 require 'users_helper_avatar_patch'
 require 'users_avatar_patch'
+require 'users_controller_patch'
+require 'attachments_controller_patch'
 require 'application_helper_avatar_patch'
 require 'my_account_hook'
 require 'my_account_patch'
