@@ -1,5 +1,9 @@
 # Japanese strings go here
 ja:
   label_avatar: "アバター"
+  label_gravatar: "Gravatar"
+  label_change_gravatar: "Change gravatar"
+  label_delete: "Delete local avatar"
+  label_add_avatar: "Add local avatar"
   message_avatar_uploaded: "アバターのアップロードを完了しました"
 

@@ -1,4 +1,8 @@
 # Polish strings go here
 pl:
   label_avatar: "Awatar"
+  label_gravatar: "Gravatar"
+  label_change_gravatar: "Change gravatar"
+  label_delete: "Delete local avatar"
+  label_add_avatar: "Add local avatar"
   message_avatar_uploaded: "Awatar został poprawnie załadowany"

@@ -1,10 +1,16 @@
-<div class="box">
-<h3><%= l(:label_avatar)%></h3>
-<div style="width: 128px; height: 128px; border: 1px silver solid;">
-<%= avatar(@user, :size => "128") %>
-</div><br>
 <%= form_tag( { :action => 'save_avatar', :id => @user }, :multipart => true) do %>
-    <%= file_field_tag "avatar" %><br />
+    <div class="box tabular">
+      <p><label><%=h l(:label_avatar) %></label><%= avatar(@user, :size => "64") %></p>
+      <% av = @user.attachments.find_by_description('avatar') %>
+      <% if not av.nil? %>
+          <p><label><%=h l(:label_delete) %></label>
+            <%= link_to image_tag('delete.png'), { :controller => 'attachments', :action => 'destroy', :id => av },
+                        :confirm => l(:text_are_you_sure),
+                        :method => :delete,
+                        :class => 'delete',
+                        :title => l(:button_delete) %></p>
+      <% end %>
+      <p><label><%=h l(:label_add_avatar) %></label><%= file_field_tag "avatar" %></p>
+    </div>
     <%= submit_tag l(:button_save) %>
 <% end %>
-</div>

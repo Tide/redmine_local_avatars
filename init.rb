@@ -11,5 +11,5 @@ Redmine::Plugin.register :redmine_local_avatars do
   name 'Redmine Local Avatars plugin'
   author 'A. Chaika'
   description 'This is a plugin for Redmine'
-  version '0.0.3-forked'
+  version '0.0.4-forked'
 end

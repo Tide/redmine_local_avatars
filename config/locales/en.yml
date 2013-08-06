@@ -1,4 +1,8 @@
 # English strings go here
 en:
   label_avatar: "Avatar"
+  label_gravatar: "Gravatar"
+  label_change_gravatar: "Change gravatar"
+  label_delete: "Delete local avatar"
+  label_add_avatar: "Add local avatar"
   message_avatar_uploaded: "Avatar uploaded successfully"
